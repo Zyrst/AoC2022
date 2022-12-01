@@ -13,8 +13,7 @@ namespace AoC2022
         public void Run()
         {
             var file = File.ReadAllLines("input/input_d1.txt");
-            var elfs = new List<int>();
-            elfs.Add(0);
+            var elfs = new List<int>() { 0 };
             foreach(var line in file)
             {
                 if(line == "")
@@ -30,9 +29,9 @@ namespace AoC2022
             var max_elf = elfs.Max();
             elfs.Sort();
             elfs.Reverse();
-            var t = elfs[0] + elfs[1] + elfs[2];
+            var three_elfs_sum = elfs.Take(3).Sum();
             Console.WriteLine($"Max elf: {max_elf}");
-            Console.WriteLine($"Total three: {t}");
+            Console.WriteLine($"Total three: {three_elfs_sum}");
         }
     }
 }
