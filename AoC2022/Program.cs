@@ -7,5 +7,8 @@
 //var d2 = new Day2();
 //d2.Run();
 
-var d3 = new Day3();
-d3.Run();
+//var d3 = new Day3();
+//d3.Run();
+
+var d4 = new Day4();
+d4.Run();
