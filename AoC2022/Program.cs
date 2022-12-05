@@ -10,5 +10,8 @@
 //var d3 = new Day3();
 //d3.Run();
 
-var d4 = new Day4();
-d4.Run();
+//var d4 = new Day4();
+//d4.Run();
+
+var d5 = new Day5();
+d5.Run();
