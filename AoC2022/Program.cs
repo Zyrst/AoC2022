@@ -16,5 +16,8 @@
 //var d5 = new Day5();
 //d5.Run();
 
-var d6 = new Day6();
-d6.Run();
+//var d6 = new Day6();
+//d6.Run();
+
+var d7 = new Day7();
+d7.Run();
